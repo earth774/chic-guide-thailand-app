@@ -1,13 +1,13 @@
 export const environment = {
   production: true,
-  serverUrl: 'https://nearmev5.quanlabs.com/api',
+  serverUrl: 'https://api.chicguidethailand.com/api',
   appUrl: 'https://trynearme.app',
   appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
-  appId: 'YOUR_APP_ID',
+  appId: 'ChicGuidThailand',
   fbId: 'YOUR_FB_ID',
   googleMapsApiKey: 'YOUR_GOOGLE_MAPS_API_KEY',
-  androidHeaderColor: '#d82c6b',
-  defaultUnit: 'mi',
+  androidHeaderColor: '#5588a7',
+  defaultUnit: 'km',
   defaultLang: 'en',
   googleClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com',
   oneSignal: {

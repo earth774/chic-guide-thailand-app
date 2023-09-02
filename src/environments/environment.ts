@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  serverUrl: 'https://chic-guide-api-46ue3.ondigitalocean.app/api',
+  serverUrl: 'https://api.chicguidethailand.com/api',
   appUrl: 'https://trynearme.app',
   appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
   appId: 'ChicGuidThailand',

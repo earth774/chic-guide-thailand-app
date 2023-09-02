@@ -19,8 +19,7 @@
       </ion-col>
       <ion-col size="6" style="text-align: center">
         <img
-          class="logo"
-          width="150px"
+          class="logo-header"
           height="60"
           src="./assets/img/logo-3.png"
         />
@@ -112,7 +111,7 @@
 
     <section *ngIf="isContentViewVisible">
       <!-- Top Slide List -->
-
+      
       <div *ngIf="slidesTop?.length">
         <swiper
           (swiper)="onSwiperTopInitialized($event)"
@@ -133,7 +132,56 @@
         </swiper>
       </div>
 
-      <div>
+      <!-- categories list -->
+      <ion-row>
+        <!-- <ion-col style="margin-bottom: -10px;" size-xs="12" size-sm="12" size-md="12" *ngFor="let category of categories"> -->
+        <ion-col style="margin-bottom: -10px;" size-xs="12" size-sm="18" size-md="12" *ngFor="let category of categories">
+          <div>
+            <ion-card button class="shadow" style="margin:3px;" color="transparent" 
+              [routerLink]="['./places']"
+              [queryParams]="{ cat: category.id, categoryTitle : category.title }">
+              <img  
+              [offset]="100"
+              defaultImage="./assets/img/placeholder.png"
+              [lazyLoad]="category.image?.url()"
+              [alt]="category.title"
+              />
+             
+            </ion-card>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <!-- <ion-row>
+        <ion-col
+          class="column-center"
+          size-xs="12"
+          size-sm="3"
+          size-md="2"
+          *ngFor="let category of categories"
+        >
+          <ion-card
+            button
+            class="shadow fade-in"
+            [routerLink]="['./places']"
+            [queryParams]="{ cat: category.id }"
+          >
+            <img
+              [offset]="100"
+              defaultImage="./assets/img/placeholder.png"
+              [lazyLoad]="category.image?.url()"
+              [alt]="category.title"
+            />
+            <ion-card-content class="ion-text-center">
+              <p class="text-small bold link multi-ellipsis">
+                {{ category.title }}
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row> -->
+
+      <!-- <div>
         <div class="ion-margin-vertical ion-padding-horizontal">
           <ion-item
             class="text-medium"
@@ -163,11 +211,11 @@
               ></ion-icon>
             </ion-button>
           </ion-item>
-        </div>
+        </div> -->
 
         <!-- Category List -->
 
-        <ion-row class="ion-align-items-center ion-padding-horizontal">
+        <!-- <ion-row class="ion-align-items-center ion-padding-horizontal">
           <ion-col size="6" class="ion-text-start">
             <ion-text color="medium">
               <span class="text-normal padding-small">
@@ -188,9 +236,9 @@
               </span>
             </ion-button>
           </ion-col>
-        </ion-row>
+        </ion-row> -->
 
-        <div class="padding-horizontal-medium">
+        <!-- <div class="padding-horizontal-medium">
           <ion-row>
             <ion-col
               class="column-center"
@@ -219,11 +267,11 @@
               </ion-card>
             </ion-col>
           </ion-row>
-        </div>
+        </div> -->
 
         <!-- Featured Places -->
 
-        <section *ngIf="featuredPlaces.length">
+        <!-- <section *ngIf="featuredPlaces.length">
           <ion-row class="ion-align-items-center ion-padding-horizontal">
             <ion-col size="6" class="ion-text-start">
               <ion-text color="medium">
@@ -266,11 +314,11 @@
               </ion-col>
             </ion-row>
           </div>
-        </section>
+        </section> -->
 
         <!-- New Places -->
 
-        <section *ngIf="newPlaces.length">
+        <!-- <section *ngIf="newPlaces.length">
           <ion-row class="ion-align-items-center ion-padding-horizontal">
             <ion-col size="6" class="ion-text-start">
               <ion-text color="medium">
@@ -312,11 +360,11 @@
               </ion-col>
             </ion-row>
           </div>
-        </section>
+        </section> -->
 
         <!-- Nearby Places -->
 
-        <section *ngIf="nearbyPlaces.length">
+        <!-- <section *ngIf="nearbyPlaces.length">
           <ion-row class="ion-align-items-center ion-padding-horizontal">
             <ion-col size="6" class="ion-text-start">
               <ion-text color="medium">
@@ -359,8 +407,8 @@
               </ion-col>
             </ion-row>
           </div>
-        </section>
-      </div>
+        </section> -->
+      <!-- </div>  -->
     </section>
 
     <div class="ion-margin-vertical" *ngIf="slidesBottom?.length">

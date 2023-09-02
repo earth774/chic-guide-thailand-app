@@ -21,9 +21,9 @@
 				"profile",
 				"email"
 			],
-			"iosClientId": "30318751485-eqaaa7rd6bivfjflia64jb9qd1a489ee.apps.googleusercontent.com",
-			"androidClientId": "30318751485-9uqnbnad33ju4t9ei2t9n6bhl44036re.apps.googleusercontent.com",
-			"serverClientId": "30318751485-qqf26fbrr1diarvdipaqjh7mh2re28gj.apps.googleusercontent.com",
+			"iosClientId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+			"androidClientId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+			"serverClientId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
 			"forceCodeForRefreshToken": true
 		}
 	}
