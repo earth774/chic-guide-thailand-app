@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>30318751485-eqaaa7rd6bivfjflia64jb9qd1a489ee.apps.googleusercontent.com</string>
+	<string>280692033654-m6308ml8geueqltgcccrat1j7gv44nr8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.30318751485-eqaaa7rd6bivfjflia64jb9qd1a489ee</string>
+	<string>com.googleusercontent.apps.280692033654-m6308ml8geueqltgcccrat1j7gv44nr8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAzfvUIhDlaycbFZCBOEhSI6vNREnm4BDk</string>
+	<string>AIzaSyBP4iMq60Uvl6o0ArPQihaUDcRsfu-k0L4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>30318751485</string>
+	<string>280692033654</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.quanlabs.nearme5</string>
+	<string>com.chicguide.appchicguide.thailand</string>
 	<key>PROJECT_ID</key>
-	<string>nearme-v4</string>
+	<string>chic-guide-thailand-59013</string>
 	<key>STORAGE_BUCKET</key>
-	<string>nearme-v4.appspot.com</string>
+	<string>chic-guide-thailand-59013.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:30318751485:ios:9459f0cc36c6ecd6</string>
-	<key>DATABASE_URL</key>
-	<string>https://nearme-v4.firebaseio.com</string>
+	<string>1:280692033654:ios:a4321ed6f538c27862b757</string>
 </dict>
 </plist>

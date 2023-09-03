@@ -1,35 +1,42 @@
 {
   "project_info": {
-    "project_number": "30318751485",
-    "firebase_url": "https://nearme-v4.firebaseio.com",
-    "project_id": "nearme-v4",
-    "storage_bucket": "nearme-v4.appspot.com"
+    "project_number": "280692033654",
+    "project_id": "chic-guide-thailand-59013",
+    "storage_bucket": "chic-guide-thailand-59013.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:30318751485:android:9459f0cc36c6ecd6",
+        "mobilesdk_app_id": "1:280692033654:android:8e000d903040b63262b757",
         "android_client_info": {
-          "package_name": "com.quanlabs.nearme5"
+          "package_name": "com.chicguide.appchicguide.thailand"
         }
       },
       "oauth_client": [
         {
-          "client_id": "30318751485-qqf26fbrr1diarvdipaqjh7mh2re28gj.apps.googleusercontent.com",
+          "client_id": "280692033654-4h0t3v7coketm96b12rlvf1mvg1a6gmi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDU6938QEQOasfoaW4HIfw3UkyVFCHZe8Y"
+          "current_key": "AIzaSyDKw-Y662DruqkqliA2y3-SVel3Z8cvlF4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "30318751485-qqf26fbrr1diarvdipaqjh7mh2re28gj.apps.googleusercontent.com",
+              "client_id": "280692033654-4h0t3v7coketm96b12rlvf1mvg1a6gmi.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "280692033654-m6308ml8geueqltgcccrat1j7gv44nr8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chicguide.appchicguide.thailand",
+                "app_store_id": "1543521702"
+              }
             }
           ]
         }
