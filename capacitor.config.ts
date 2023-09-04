@@ -2,12 +2,13 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.quanlabs.nearme5',
-  appName: 'Nearme',
+  appName: 'Chic Guide Thailand',
   webDir: 'www',
   bundledWebRuntime: false,
   plugins: {
     SplashScreen: {
-      launchAutoHide: false,
+      launchShowDuration: 3000,
+      launchAutoHide: true,
       backgroundColor: '#ffffffff',
       androidSplashResourceName: 'splash',
       androidScaleType: 'CENTER_CROP',
