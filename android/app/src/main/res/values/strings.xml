@@ -2,8 +2,10 @@
 <resources>
   <string name="app_name">Nearme</string>
   <string name="title_activity_main">Nearme</string>
-  <string name="package_name">com.quanlabs.nearme5</string>
-  <string name="custom_url_scheme">com.quanlabs.nearme5</string>
-  <string name="facebook_app_id">310014526316066</string>
-  <string name="facebook_client_token">159a6bf0ee3f7df23a7f75d2ec32624e</string>
+  <string name="package_name">com.chicguide.appchicguide.thailand</string>
+  <string name="custom_url_scheme">com.chicguide.appchicguide.thailandMain</string>
+  <string name="facebook_app_id">1267163477495078</string>
+  <string name="facebook_client_token">e5ed99bfa886993303abd033e1e1cafc</string>
+  <string name="fb_login_protocol_scheme">fb1267163477495078</string>
+  <string name="server_client_id">677267991762-agfqp6bamqmhni0djr4u83mjnj8su486.apps.googleusercontent.com</string>
 </resources>

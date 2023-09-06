@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.quanlabs.nearme5',
+  appId: 'com.chicguide.appchicguide.thailand',
   appName: 'Chic Guide Thailand',
   webDir: 'www',
   bundledWebRuntime: false,
@@ -21,9 +21,9 @@ const config: CapacitorConfig = {
     },
     GoogleAuth: {
       scopes: ['profile', 'email'],
-      iosClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com',
-      androidClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com',
-      serverClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com',
+      iosClientId: '677267991762-alvvs25hefk5g7l63tku0k52d83bvqcu.apps.googleusercontent.com',
+      androidClientId: '677267991762-agfqp6bamqmhni0djr4u83mjnj8su486.apps.googleusercontent.com',
+      serverClientId: '677267991762-agfqp6bamqmhni0djr4u83mjnj8su486.apps.googleusercontent.com',
       forceCodeForRefreshToken: true
     }
   }
