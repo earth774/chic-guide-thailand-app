@@ -20,6 +20,21 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleURLTypes</key>
 	<array>
+	<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>fb1267163477495078</string>
+		</array>
+	</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>1267163477495078</string>
+	<key>FacebookClientToken</key>
+	<string>e5ed99bfa886993303abd033e1e1cafc</string>
+	<key>FacebookDisplayName</key>
+	<string>Chic Guild</string>
+	<!-- <key>CFBundleURLTypes</key>
+	<array>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
@@ -42,7 +57,7 @@
 	<key>FacebookClientToken</key>
 	<string>159a6bf0ee3f7df23a7f75d2ec32624e</string>
 	<key>FacebookDisplayName</key>
-	<string>Nearme</string>
+	<string>Nearme</string> -->
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>

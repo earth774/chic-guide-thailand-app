@@ -4,7 +4,7 @@ export const environment = {
   appUrl: 'https://trynearme.app',
   appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
   appId: 'ChicGuidThailand',
-  fbId: '819136688885201',
+  fbId: '1267163477495078',
   googleMapsApiKey: 'AIzaSyDYsWCmb62mEqZQ9pNz_QoWPSZHY9GV_s8',
   androidHeaderColor: '#5588a7',
   defaultUnit: 'km',
