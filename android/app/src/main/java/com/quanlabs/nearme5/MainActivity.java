@@ -1,4 +1,4 @@
-package com.quanlabs.nearme5;
+package com.chicguide.appchicguide.thailand;
 
 import android.os.Bundle;
 import com.getcapacitor.BridgeActivity;
