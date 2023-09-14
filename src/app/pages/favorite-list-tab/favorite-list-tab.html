@@ -27,7 +27,7 @@
 
     <ion-row [@staggerIn]="places.length">
       <ion-col size-xs="12" size-sm="6" size-md="6" size-lg="4" *ngFor="let place of places">
-        <app-place-card [routerLink]="['../places/' + place.id + '/' + place.slug]"
+        <app-place-card [routerLink]="['../likes/places/' + place.id + '/' + place.slug]"
           [place]="place"
           [extraParams]="{ location: location, unit: preference.unit }">
         </app-place-card>
