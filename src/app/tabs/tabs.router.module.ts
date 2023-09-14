@@ -167,6 +167,11 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'likes',
+        canActivate: [AuthGuard],
+        loadChildren: () => import('../pages/favorite-list-tab/favorite-list-tab.module').then(m => m.FavoriteListTabPageModule)
+      },
+      {
         path: 'profile',
         children: [
           {

@@ -217,7 +217,8 @@ export class AppComponent extends BasePage {
       '/1/home',
       '/1/explore',
       '/1/posts',
-      '/1/profile'
+      '/1/profile',
+      '/1/likes'
     ];
 
     this.router.events.subscribe(val => {

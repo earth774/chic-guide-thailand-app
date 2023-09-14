@@ -63,7 +63,7 @@ export class TabsPage extends BasePage implements OnInit {
 
   ngOnInit() {
 
-    this.tabNames = ['home', 'explore', 'posts', 'profile'];
+    this.tabNames = ['home','likes', 'explore', 'posts', 'profile'];
 
     this.topLevelRoutes = [
       '/',
@@ -72,6 +72,7 @@ export class TabsPage extends BasePage implements OnInit {
       '/1/explore',
       '/1/posts',
       '/1/profile',
+      '/1/likes',
     ];
 
     if (Capacitor.isNativePlatform() && isPlatform('android')) {
