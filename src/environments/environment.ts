@@ -4,14 +4,14 @@ export const environment = {
   appUrl: 'https://trynearme.app',
   appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
   appId: 'ChicGuidThailand',
-  fbId: '1267163477495078',
+  fbId: '264172519827432',
   googleMapsApiKey: 'AIzaSyDYsWCmb62mEqZQ9pNz_QoWPSZHY9GV_s8',
   androidHeaderColor: '#5588a7',
   defaultUnit: 'km',
   defaultLang: 'en',
-  googleClientId: '280692033654-m6308ml8geueqltgcccrat1j7gv44nr8.apps.googleusercontent.com',
+  googleClientId: '280692033654-4h0t3v7coketm96b12rlvf1mvg1a6gmi.apps.googleusercontent.com',
   oneSignal: {
-    appId: 'f2c33e1b-578b-4a38-85a0-dfce2eed275f',
+    appId: '527b4f66-61bc-4c47-a512-a41f5cf3fc17',
     googleProjectNumber: '1071340130209'
   },
   currency: {
