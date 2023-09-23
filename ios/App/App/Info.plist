@@ -20,25 +20,10 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleURLTypes</key>
 	<array>
-	<dict>
-		<key>CFBundleURLSchemes</key>
-		<array>
-			<string>fb1267163477495078</string>
-		</array>
-	</dict>
-	</array>
-	<key>FacebookAppID</key>
-	<string>1267163477495078</string>
-	<key>FacebookClientToken</key>
-	<string>e5ed99bfa886993303abd033e1e1cafc</string>
-	<key>FacebookDisplayName</key>
-	<string>Chic Guild</string>
-	<!-- <key>CFBundleURLTypes</key>
-	<array>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb310014526316066</string>
+				<string>fb1267163477495078</string>
 			</array>
 		</dict>
 		<dict>
@@ -46,18 +31,18 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.280692033654-m6308ml8geueqltgcccrat1j7gv44nr8</string>
+				<string>com.googleusercontent.apps.280692033654-2f8dsvvosebk0s9r8mjcc2l9bqnusi0b</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>8.0.0</string>
 	<key>FacebookAppID</key>
-	<string>310014526316066</string>
+	<string>1267163477495078</string>
 	<key>FacebookClientToken</key>
-	<string>159a6bf0ee3f7df23a7f75d2ec32624e</string>
+	<string>e5ed99bfa886993303abd033e1e1cafc</string>
 	<key>FacebookDisplayName</key>
-	<string>Nearme</string> -->
+	<string>Chic Guild</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -95,6 +80,8 @@
 	<string>This app requires camera access to select and upload user and listing pictures.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app requires camera access to select and upload user and listing pictures.</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.280692033654-2f8dsvvosebk0s9r8mjcc2l9bqnusi0b</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
