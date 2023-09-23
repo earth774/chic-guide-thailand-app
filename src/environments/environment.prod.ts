@@ -9,7 +9,7 @@ export const environment = {
   androidHeaderColor: '#5588a7',
   defaultUnit: 'km',
   defaultLang: 'en',
-  googleClientId: '427617387136-h04uc00h4o0j0s3h53954e8j9er936gm.apps.googleusercontent.com',
+  googleClientId: '427617387136-dp3kohgeo74hsrvjkjc7v9207c8k41jh.apps.googleusercontent.com',
   oneSignal: {
     appId: '527b4f66-61bc-4c47-a512-a41f5cf3fc17',
     googleProjectNumber: '1071340130209'
@@ -20,12 +20,13 @@ export const environment = {
     digitsInfo: '1.2-2',
   },
   firebase :{
-    apiKey: "AIzaSyBP4iMq60Uvl6o0ArPQihaUDcRsfu-k0L4",                             // Auth / General Use
-    appId: "1:280692033654:ios:a4321ed6f538c27862b757",      // General Use
-    projectId: "chic-guide-thailand-59013t",               // General Use
-    authDomain: "chic-guide-thailand-59013t.firebaseapp.com",         // Auth with popup/redirect
-    databaseURL: "https://chic-guide-thailand-59013t.firebaseio.com", // Realtime Database
-    storageBucket: "chic-guide-thailand-59013t.appspot.com",          // Storage
+    apiKey: "AIzaSyBXZXwRGVjdGoGoYylrIBXemcsZ47e1rLs",
+    authDomain: "chic-guide-thailand2.firebaseapp.com",
+    projectId: "chic-guide-thailand2",
+    storageBucket: "chic-guide-thailand2.appspot.com",
+    messagingSenderId: "427617387136",
+    appId: "1:427617387136:web:33e2c135c3f1360ecb9c65",
+    measurementId: "G-7BV434TDPL"// Storage
   }
 
 };
