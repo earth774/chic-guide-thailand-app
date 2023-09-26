@@ -1,5 +1,5 @@
 export const environment = {
-    production: false,
+    production: true,
     serverUrl: 'https://api.chicguidethailand.com/api',
     appUrl: 'https://trynearme.app',
     appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
@@ -20,13 +20,13 @@ export const environment = {
       digitsInfo: '1.2-2',
     },
     firebase :{
-      apiKey: "AIzaSyBXZXwRGVjdGoGoYylrIBXemcsZ47e1rLs",
-      authDomain: "chic-guide-thailand2.firebaseapp.com",
-      projectId: "chic-guide-thailand2",
-      storageBucket: "chic-guide-thailand2.appspot.com",
-      messagingSenderId: "427617387136",
-      appId: "1:427617387136:web:33e2c135c3f1360ecb9c65",
-      measurementId: "G-7BV434TDPL"
+      apiKey: "AIzaSyD_qahE5PleDPNcXLkIqegxyqkSyCdARqQ",
+      authDomain: "ionic-auth-firebase-3fe14.firebaseapp.com",
+      projectId: "ionic-auth-firebase-3fe14",
+      storageBucket: "ionic-auth-firebase-3fe14.appspot.com",
+      messagingSenderId: "824153985838",
+      appId: "1:824153985838:web:26b689ce409275c8e1a0bf",
+      measurementId: "G-KV4VH7444T"
     }
   };
   
