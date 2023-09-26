@@ -56,7 +56,7 @@
 		"classpath": "com.capacitorjs.plugins.statusbar.StatusBarPlugin"
 	},
 	{
-		"pkg": "@codetrix-studio/capacitor-google-auth",
+		"pkg": "@fmendoza/capacitor-google-auth",
 		"classpath": "com.codetrixstudio.capacitor.GoogleAuth.GoogleAuth"
 	}
 ]

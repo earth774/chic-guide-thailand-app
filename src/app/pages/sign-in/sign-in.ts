@@ -9,7 +9,7 @@ import { AppConfigService } from 'src/app/services/app-config.service';
 import { Device } from '@capacitor/device';
 import { SignInWithApple, SignInWithAppleOptions, SignInWithAppleResponse } from '@capacitor-community/apple-sign-in';
 import { FacebookLogin } from '@capacitor-community/facebook-login';
-import { GoogleAuth } from '@codetrix-studio/capacitor-google-auth';
+import { GoogleAuth } from '@fmendoza/capacitor-google-auth';
 import { isPlatform } from '@ionic/angular';
 import * as Parse from 'parse';
 import { Capacitor } from '@capacitor/core';
