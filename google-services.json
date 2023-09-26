@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:280692033654:android:8e000d903040b63262b757",
         "android_client_info": {
-          "package_name": "com.chicguide.appchicguide.thailand"
+          "package_name": "com.amiearth.chicguide"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "280692033654-m6308ml8geueqltgcccrat1j7gv44nr8.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.chicguide.appchicguide.thailand",
+                "bundle_id": "com.amiearth.chicguide",
                 "app_store_id": "1543521702"
               }
             }

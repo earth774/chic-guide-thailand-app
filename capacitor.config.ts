@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.chicguide.appchicguide.thailand',
+  appId: 'com.amiearth.chicguide',
   appName: 'Chic Guide Thailand',
   webDir: 'www',
   bundledWebRuntime: false,
