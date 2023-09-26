@@ -25,7 +25,9 @@ import OneSignal from 'onesignal-cordova-plugin';
 import { NotificationReceivedEvent, OpenedEvent } from 'onesignal-cordova-plugin/types/Notification';
 import Utils from './utils';
 import { NotificationPage } from './pages/notification/notification.page';
-declare GoogleAuth;
+import { GoogleAuth } from '@fmendoza/capacitor-google-auth';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html'
