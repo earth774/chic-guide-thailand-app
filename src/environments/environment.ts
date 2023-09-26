@@ -1,5 +1,5 @@
 export const environment = {
-    production: true,
+    production: false,
     serverUrl: 'https://api.chicguidethailand.com/api',
     appUrl: 'https://trynearme.app',
     appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
