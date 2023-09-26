@@ -25,6 +25,7 @@ import OneSignal from 'onesignal-cordova-plugin';
 import { NotificationReceivedEvent, OpenedEvent } from 'onesignal-cordova-plugin/types/Notification';
 import Utils from './utils';
 import { NotificationPage } from './pages/notification/notification.page';
+import { GoogleAuth } from '@fmendoza/capacitor-google-auth';
 
 @Component({
   selector: 'app-root',
@@ -40,6 +41,11 @@ export class AppComponent extends BasePage {
     private ngZone: NgZone) {
     super(injector);
     this.initializeApp();
+    GoogleAuth.initialize({
+      clientId: '824153985838-ng4e3ig620o55bb40j7ak1ooscclhjeb.apps.googleusercontent.com',
+      scopes: ['profile', 'email'],
+      grantOfflineAccess: true,
+    });
   }
 
   enableMenuSwipe(): boolean {
