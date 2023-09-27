@@ -25,7 +25,7 @@ import OneSignal from 'onesignal-cordova-plugin';
 import { NotificationReceivedEvent, OpenedEvent } from 'onesignal-cordova-plugin/types/Notification';
 import Utils from './utils';
 import { NotificationPage } from './pages/notification/notification.page';
-import { GoogleAuth } from '@fmendoza/capacitor-google-auth';
+// import { GoogleAuth } from '@fmendoza/capacitor-google-auth';
 
 
 @Component({
@@ -42,11 +42,22 @@ export class AppComponent extends BasePage {
     private ngZone: NgZone) {
     super(injector);
     this.initializeApp();
-    GoogleAuth.initialize({
-      clientId: '824153985838-ng4e3ig620o55bb40j7ak1ooscclhjeb.apps.googleusercontent.com',
-      scopes: ['profile', 'email'],
-      grantOfflineAccess: true,
-    });
+    // GoogleAuth.initialize({
+    //   clientId: '824153985838-ng4e3ig620o55bb40j7ak1ooscclhjeb.apps.googleusercontent.com',
+    //   scopes: ['profile', 'email'],
+    //   grantOfflineAccess: true,
+    // });
+
+    window.gapi.load('client:auth2', () => {
+      window.gapi.client.init({
+          clientId: '716075642837-kergfh0638hu8iq5dimpgnlc1f08s61r.apps.googleusercontent.com',
+          scope: 'email',
+          plugin_name: 'streamy'
+      }).then(() => {
+          // this.auth = window.gapi.auth2.getAuthInstance();
+          // this.setState({isSignedIn: this.auth.isSignedIn.get()})
+      });
+  });
   }
 
   enableMenuSwipe(): boolean {
